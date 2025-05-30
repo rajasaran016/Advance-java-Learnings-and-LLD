@@ -119,34 +119,6 @@ public class Student {
             return new Student(this);
         }
 
-        public String getName(){
-            return this.name;
-        }
-
-        public int getAge(){
-            return this.age;
-        }
-
-        public String getEmail(){
-            return this.email;
-        }
-
-        public int getPhone(){
-            return this.phone;
-        }
-
-        public int getRollNo(){
-            return this.rollNo;
-        }
-
-        public String getDepartment(){
-            return this.department;
-        }
-
-        public String getAddress(){
-            return this.address;
-        }
-
         Queue<Integer> queue = null;
     }
 }
