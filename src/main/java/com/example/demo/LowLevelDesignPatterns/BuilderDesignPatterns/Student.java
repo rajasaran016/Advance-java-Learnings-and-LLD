@@ -119,6 +119,5 @@ public class Student {
             return new Student(this);
         }
 
-        Queue<Integer> queue = null;
     }
 }

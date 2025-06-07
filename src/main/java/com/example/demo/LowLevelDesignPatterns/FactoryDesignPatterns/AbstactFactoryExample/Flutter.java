@@ -1,5 +1,8 @@
 package com.example.demo.LowLevelDesignPatterns.FactoryDesignPatterns.AbstactFactoryExample;
-    /*
+
+import java.util.Objects;
+
+/*
     * Flutter is a cross-platform mobile framework for developing native Android and iOS apps.
     */
 public class Flutter {
@@ -14,7 +17,7 @@ public class Flutter {
 
     public UIFactory createUIFactory(String platform) {
 
-        if(platform == "IOS") return new IOSUIFactory();
+        if(Objects.equals(platform, "IOS")) return new IOSUIFactory();
         else return new AndroidUIFactory();
     }
 }
